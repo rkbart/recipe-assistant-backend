@@ -35,16 +35,16 @@ gem "image_processing", "~> 1.2"
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin Ajax possible
 gem "rack-cors"
 
-#RubyLLM
+# RubyLLM
 gem "ruby_llm"
 
-#postgresql
+# postgresql
 gem "pg"
 
-#pdf reader
+# pdf reader
 gem "pdf-reader"
 
-#neighbor
+# neighbor
 gem "neighbor"
 
 group :development, :test do

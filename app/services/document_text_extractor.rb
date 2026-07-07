@@ -23,7 +23,7 @@ class DocumentTextExtractor
   private
 
   def extract_pdf
-    tempfile = Tempfile.new(["recipe", ".pdf"])
+    tempfile = Tempfile.new([ "recipe", ".pdf" ])
 
     tempfile.binmode
     tempfile.write(@document.file.download)

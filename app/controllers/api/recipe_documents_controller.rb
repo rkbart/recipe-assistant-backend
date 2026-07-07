@@ -1,5 +1,4 @@
 class Api::RecipeDocumentsController < ApplicationController
-  
   def create
     document = RecipeDocument.new(
       title: params[:title],
@@ -16,5 +15,4 @@ class Api::RecipeDocumentsController < ApplicationController
             status: :unprocessable_entity
     end
   end
-  
 end
